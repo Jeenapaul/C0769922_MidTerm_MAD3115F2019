@@ -36,7 +36,9 @@
                                 <rect key="frame" x="0.0" y="54" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Sign in" id="k24-l5-4Lu"/>
+                                    <navigationItem title="Title" id="jA3-jU-bEf">
+                                        <barButtonItem key="rightBarButtonItem" title="Log in" id="Wyf-tV-cQa"/>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>
