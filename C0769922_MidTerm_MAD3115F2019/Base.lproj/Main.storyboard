@@ -73,7 +73,9 @@
                                 <rect key="frame" x="0.0" y="59" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Customers" id="V77-7z-s8X"/>
+                                    <navigationItem title="Customers" id="V77-7z-s8X">
+                                        <barButtonItem key="rightBarButtonItem" title="Add Customers" id="ELc-rt-htX"/>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>
