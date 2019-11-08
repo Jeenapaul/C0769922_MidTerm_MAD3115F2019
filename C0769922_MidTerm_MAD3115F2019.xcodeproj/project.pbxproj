@@ -17,6 +17,7 @@
 		9BADD08D237608CD008B2C22 /* AddNewBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BADD08C237608CD008B2C22 /* AddNewBillViewController.swift */; };
 		9BADD0902376115C008B2C22 /* output-onlinejpgtools.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BADD08F2376115C008B2C22 /* output-onlinejpgtools.png */; };
 		9BC41F2F23762C6B001F0097 /* CurrencyExtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F2E23762C6B001F0097 /* CurrencyExtn.swift */; };
+		9BC41F3123762CA1001F0097 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F3023762CA1001F0097 /* DateExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9BADD08C237608CD008B2C22 /* AddNewBillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBillViewController.swift; sourceTree = "<group>"; };
 		9BADD08F2376115C008B2C22 /* output-onlinejpgtools.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "output-onlinejpgtools.png"; sourceTree = "<group>"; };
 		9BC41F2E23762C6B001F0097 /* CurrencyExtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrencyExtn.swift; path = ../../../../Downloads/Project/Project/Extensions/CurrencyExtn.swift; sourceTree = "<group>"; };
+		9BC41F3023762CA1001F0097 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = ../../../../Downloads/Project/Project/Extensions/DateExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		9BC41F2D23762C3D001F0097 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				9BC41F3023762CA1001F0097 /* DateExtension.swift */,
 				9BC41F2E23762C6B001F0097 /* CurrencyExtn.swift */,
 			);
 			path = Extensions;
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BADD0792375F374008B2C22 /* LoginViewController.swift in Sources */,
+				9BC41F3123762CA1001F0097 /* DateExtension.swift in Sources */,
 				9BC41F2F23762C6B001F0097 /* CurrencyExtn.swift in Sources */,
 				9BADD0892375F779008B2C22 /* CustomerListTableViewController.swift in Sources */,
 				9BADD0772375F374008B2C22 /* AppDelegate.swift in Sources */,
