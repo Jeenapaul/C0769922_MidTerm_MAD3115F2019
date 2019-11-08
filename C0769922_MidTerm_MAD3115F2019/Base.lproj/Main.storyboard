@@ -36,7 +36,7 @@
                                 <rect key="frame" x="0.0" y="54" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Title" id="jA3-jU-bEf">
+                                    <navigationItem title="Sign IN" id="jA3-jU-bEf">
                                         <barButtonItem key="rightBarButtonItem" title="Log in" id="Wyf-tV-cQa"/>
                                     </navigationItem>
                                 </items>
@@ -53,7 +53,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.64649401003456719" green="1" blue="0.90330342302149957" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.49863970093002219" green="1" blue="0.96284966042285802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -115,6 +115,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="New Customer" id="nUQ-Mz-jMr">
+                                        <barButtonItem key="leftBarButtonItem" title="Customers" id="Huo-Jb-2kg"/>
                                         <barButtonItem key="rightBarButtonItem" title="Save" id="P2p-sy-67T"/>
                                     </navigationItem>
                                 </items>

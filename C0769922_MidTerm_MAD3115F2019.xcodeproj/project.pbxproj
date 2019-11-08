@@ -15,6 +15,7 @@
 		9BADD0892375F779008B2C22 /* CustomerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BADD0882375F779008B2C22 /* CustomerListTableViewController.swift */; };
 		9BADD08B23760808008B2C22 /* ShowBillDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BADD08A23760808008B2C22 /* ShowBillDetailsViewController.swift */; };
 		9BADD08D237608CD008B2C22 /* AddNewBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BADD08C237608CD008B2C22 /* AddNewBillViewController.swift */; };
+		9BADD0902376115C008B2C22 /* output-onlinejpgtools.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BADD08F2376115C008B2C22 /* output-onlinejpgtools.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9BADD0882375F779008B2C22 /* CustomerListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListTableViewController.swift; sourceTree = "<group>"; };
 		9BADD08A23760808008B2C22 /* ShowBillDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowBillDetailsViewController.swift; sourceTree = "<group>"; };
 		9BADD08C237608CD008B2C22 /* AddNewBillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBillViewController.swift; sourceTree = "<group>"; };
+		9BADD08F2376115C008B2C22 /* output-onlinejpgtools.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "output-onlinejpgtools.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		9BADD0752375F374008B2C22 /* C0769922_MidTerm_MAD3115F2019 */ = {
 			isa = PBXGroup;
 			children = (
+				9BADD08E2376111C008B2C22 /* New Group */,
 				9BADD0762375F374008B2C22 /* AppDelegate.swift */,
 				9BADD0782375F374008B2C22 /* LoginViewController.swift */,
 				9BADD07A2375F374008B2C22 /* Main.storyboard */,
@@ -71,6 +74,14 @@
 				9BADD08C237608CD008B2C22 /* AddNewBillViewController.swift */,
 			);
 			path = C0769922_MidTerm_MAD3115F2019;
+			sourceTree = "<group>";
+		};
+		9BADD08E2376111C008B2C22 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				9BADD08F2376115C008B2C22 /* output-onlinejpgtools.png */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BADD0812375F377008B2C22 /* LaunchScreen.storyboard in Resources */,
+				9BADD0902376115C008B2C22 /* output-onlinejpgtools.png in Resources */,
 				9BADD07E2375F377008B2C22 /* Assets.xcassets in Resources */,
 				9BADD07C2375F374008B2C22 /* Main.storyboard in Resources */,
 			);
