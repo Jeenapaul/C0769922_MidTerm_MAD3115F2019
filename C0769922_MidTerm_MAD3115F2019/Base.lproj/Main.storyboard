@@ -286,7 +286,9 @@
                                 <rect key="frame" x="0.0" y="61" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Add New Bill" id="xhN-0V-1b3"/>
+                                    <navigationItem title="Add New Bill" id="xhN-0V-1b3">
+                                        <barButtonItem key="rightBarButtonItem" title="Save" id="qxU-sj-kgz"/>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>
