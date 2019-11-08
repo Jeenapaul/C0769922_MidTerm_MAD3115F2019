@@ -274,5 +274,29 @@
             </objects>
             <point key="canvasLocation" x="1452.1739130434785" y="-500.89285714285711"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="OBX-jD-a4V">
+            <objects>
+                <viewController id="4i8-y6-MVI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ycJ-sE-FaV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pzK-Y1-T1j">
+                                <rect key="frame" x="0.0" y="61" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Add New Bill" id="xhN-0V-1b3"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="yxN-sV-doN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ejB-d9-D3e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2243" y="-500"/>
+        </scene>
     </scenes>
 </document>
