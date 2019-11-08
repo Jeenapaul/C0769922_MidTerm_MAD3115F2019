@@ -26,6 +26,7 @@
 		9BC41F3D23762DDC001F0097 /* Hydro copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F3C23762DDC001F0097 /* Hydro copy.swift */; };
 		9BC41F3F23762DF2001F0097 /* Customer copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F3E23762DF1001F0097 /* Customer copy.swift */; };
 		9BC41F4123762EE0001F0097 /* Bill copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F4023762EE0001F0097 /* Bill copy.swift */; };
+		9BC41F4323762EFA001F0097 /* MinuteExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F4223762EFA001F0097 /* MinuteExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		9BC41F3C23762DDC001F0097 /* Hydro copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Hydro copy.swift"; path = "../../../../Downloads/Project/Project/Extensions/Hydro copy.swift"; sourceTree = "<group>"; };
 		9BC41F3E23762DF1001F0097 /* Customer copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Customer copy.swift"; path = "../../../../Downloads/Project/Project/Extensions/Customer copy.swift"; sourceTree = "<group>"; };
 		9BC41F4023762EE0001F0097 /* Bill copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bill copy.swift"; path = "../../../../Downloads/Project/Project/Extensions/Bill copy.swift"; sourceTree = "<group>"; };
+		9BC41F4223762EFA001F0097 /* MinuteExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MinuteExt.swift; path = ../../../../Downloads/Project/Project/Extensions/MinuteExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				9BC41F3C23762DDC001F0097 /* Hydro copy.swift */,
 				9BC41F3E23762DF1001F0097 /* Customer copy.swift */,
 				9BC41F4023762EE0001F0097 /* Bill copy.swift */,
+				9BC41F4223762EFA001F0097 /* MinuteExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				9BC41F3B23762DBB001F0097 /* ATErrorMessage.swift in Sources */,
 				9BADD0772375F374008B2C22 /* AppDelegate.swift in Sources */,
 				9BADD08D237608CD008B2C22 /* AddNewBillViewController.swift in Sources */,
+				9BC41F4323762EFA001F0097 /* MinuteExt.swift in Sources */,
 				9BADD08B23760808008B2C22 /* ShowBillDetailsViewController.swift in Sources */,
 				9BC41F3523762D21001F0097 /* DataUsed.swift in Sources */,
 			);
