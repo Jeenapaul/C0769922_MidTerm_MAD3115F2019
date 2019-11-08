@@ -20,6 +20,7 @@
 		9BC41F3123762CA1001F0097 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F3023762CA1001F0097 /* DateExtension.swift */; };
 		9BC41F3323762CC0001F0097 /* Internet copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F3223762CC0001F0097 /* Internet copy.swift */; };
 		9BC41F3523762D21001F0097 /* DataUsed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F3423762D21001F0097 /* DataUsed.swift */; };
+		9BC41F3723762D5C001F0097 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F3623762D5C001F0097 /* String+Validation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		9BC41F3023762CA1001F0097 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = ../../../../Downloads/Project/Project/Extensions/DateExtension.swift; sourceTree = "<group>"; };
 		9BC41F3223762CC0001F0097 /* Internet copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Internet copy.swift"; path = "../../../../Downloads/Project/Project/Extensions/Internet copy.swift"; sourceTree = "<group>"; };
 		9BC41F3423762D21001F0097 /* DataUsed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataUsed.swift; path = ../../../../Downloads/Project/Project/Extensions/DataUsed.swift; sourceTree = "<group>"; };
+		9BC41F3623762D5C001F0097 /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Validation.swift"; path = "../../../../Downloads/Project/Project/Extensions/String+Validation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9BC41F2E23762C6B001F0097 /* CurrencyExtn.swift */,
 				9BC41F3223762CC0001F0097 /* Internet copy.swift */,
 				9BC41F3423762D21001F0097 /* DataUsed.swift */,
+				9BC41F3623762D5C001F0097 /* String+Validation.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BADD0792375F374008B2C22 /* LoginViewController.swift in Sources */,
+				9BC41F3723762D5C001F0097 /* String+Validation.swift in Sources */,
 				9BC41F3123762CA1001F0097 /* DateExtension.swift in Sources */,
 				9BC41F3323762CC0001F0097 /* Internet copy.swift in Sources */,
 				9BC41F2F23762C6B001F0097 /* CurrencyExtn.swift in Sources */,
