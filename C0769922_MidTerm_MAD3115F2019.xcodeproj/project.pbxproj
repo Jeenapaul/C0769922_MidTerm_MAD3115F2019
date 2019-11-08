@@ -19,6 +19,7 @@
 		9BC41F2F23762C6B001F0097 /* CurrencyExtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F2E23762C6B001F0097 /* CurrencyExtn.swift */; };
 		9BC41F3123762CA1001F0097 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F3023762CA1001F0097 /* DateExtension.swift */; };
 		9BC41F3323762CC0001F0097 /* Internet copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F3223762CC0001F0097 /* Internet copy.swift */; };
+		9BC41F3523762D21001F0097 /* DataUsed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F3423762D21001F0097 /* DataUsed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		9BC41F2E23762C6B001F0097 /* CurrencyExtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrencyExtn.swift; path = ../../../../Downloads/Project/Project/Extensions/CurrencyExtn.swift; sourceTree = "<group>"; };
 		9BC41F3023762CA1001F0097 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = ../../../../Downloads/Project/Project/Extensions/DateExtension.swift; sourceTree = "<group>"; };
 		9BC41F3223762CC0001F0097 /* Internet copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Internet copy.swift"; path = "../../../../Downloads/Project/Project/Extensions/Internet copy.swift"; sourceTree = "<group>"; };
+		9BC41F3423762D21001F0097 /* DataUsed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataUsed.swift; path = ../../../../Downloads/Project/Project/Extensions/DataUsed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				9BC41F3023762CA1001F0097 /* DateExtension.swift */,
 				9BC41F2E23762C6B001F0097 /* CurrencyExtn.swift */,
 				9BC41F3223762CC0001F0097 /* Internet copy.swift */,
+				9BC41F3423762D21001F0097 /* DataUsed.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				9BADD0772375F374008B2C22 /* AppDelegate.swift in Sources */,
 				9BADD08D237608CD008B2C22 /* AddNewBillViewController.swift in Sources */,
 				9BADD08B23760808008B2C22 /* ShowBillDetailsViewController.swift in Sources */,
+				9BC41F3523762D21001F0097 /* DataUsed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
