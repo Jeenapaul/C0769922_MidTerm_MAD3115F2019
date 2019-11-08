@@ -12,6 +12,7 @@
 		9BADD07C2375F374008B2C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BADD07A2375F374008B2C22 /* Main.storyboard */; };
 		9BADD07E2375F377008B2C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BADD07D2375F377008B2C22 /* Assets.xcassets */; };
 		9BADD0812375F377008B2C22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BADD07F2375F377008B2C22 /* LaunchScreen.storyboard */; };
+		9BADD0892375F779008B2C22 /* CustomerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BADD0882375F779008B2C22 /* CustomerListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9BADD07D2375F377008B2C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BADD0802375F377008B2C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BADD0822375F377008B2C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BADD0882375F779008B2C22 /* CustomerListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				9BADD07D2375F377008B2C22 /* Assets.xcassets */,
 				9BADD07F2375F377008B2C22 /* LaunchScreen.storyboard */,
 				9BADD0822375F377008B2C22 /* Info.plist */,
+				9BADD0882375F779008B2C22 /* CustomerListTableViewController.swift */,
 			);
 			path = C0769922_MidTerm_MAD3115F2019;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BADD0792375F374008B2C22 /* LoginViewController.swift in Sources */,
+				9BADD0892375F779008B2C22 /* CustomerListTableViewController.swift in Sources */,
 				9BADD0772375F374008B2C22 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
