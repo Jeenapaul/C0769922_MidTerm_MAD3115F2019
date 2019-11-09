@@ -16,17 +16,17 @@
 		9BADD08B23760808008B2C22 /* ShowBillDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BADD08A23760808008B2C22 /* ShowBillDetailsViewController.swift */; };
 		9BADD08D237608CD008B2C22 /* AddNewBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BADD08C237608CD008B2C22 /* AddNewBillViewController.swift */; };
 		9BADD0902376115C008B2C22 /* output-onlinejpgtools.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BADD08F2376115C008B2C22 /* output-onlinejpgtools.png */; };
-		9BC41F2F23762C6B001F0097 /* CurrencyExtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F2E23762C6B001F0097 /* CurrencyExtn.swift */; };
-		9BC41F3123762CA1001F0097 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F3023762CA1001F0097 /* DateExtension.swift */; };
-		9BC41F3323762CC0001F0097 /* Internet copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F3223762CC0001F0097 /* Internet copy.swift */; };
-		9BC41F3523762D21001F0097 /* DataUsed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F3423762D21001F0097 /* DataUsed.swift */; };
-		9BC41F3723762D5C001F0097 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F3623762D5C001F0097 /* String+Validation.swift */; };
-		9BC41F3923762D94001F0097 /* IDisplay copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F3823762D94001F0097 /* IDisplay copy.swift */; };
-		9BC41F3B23762DBB001F0097 /* ATErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F3A23762DBB001F0097 /* ATErrorMessage.swift */; };
-		9BC41F3D23762DDC001F0097 /* Hydro copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F3C23762DDC001F0097 /* Hydro copy.swift */; };
-		9BC41F3F23762DF2001F0097 /* Customer copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F3E23762DF1001F0097 /* Customer copy.swift */; };
-		9BC41F4123762EE0001F0097 /* Bill copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F4023762EE0001F0097 /* Bill copy.swift */; };
-		9BC41F4323762EFA001F0097 /* MinuteExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F4223762EFA001F0097 /* MinuteExt.swift */; };
+		9BC41F4B237636E0001F0097 /* CurrencyExtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F4A237636E0001F0097 /* CurrencyExtn.swift */; };
+		9BC41F4D237636E6001F0097 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F4C237636E6001F0097 /* DateExtension.swift */; };
+		9BC41F4F237636F7001F0097 /* Internet copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F4E237636F7001F0097 /* Internet copy.swift */; };
+		9BC41F51237636FD001F0097 /* DataUsed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F50237636FD001F0097 /* DataUsed.swift */; };
+		9BC41F5323763719001F0097 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F5223763719001F0097 /* String+Validation.swift */; };
+		9BC41F5523763745001F0097 /* IDisplay copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F5423763745001F0097 /* IDisplay copy.swift */; };
+		9BC41F5723763767001F0097 /* ATErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F5623763767001F0097 /* ATErrorMessage.swift */; };
+		9BC41F592376376D001F0097 /* Hydro copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F582376376D001F0097 /* Hydro copy.swift */; };
+		9BC41F5B23763772001F0097 /* Customer copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F5A23763772001F0097 /* Customer copy.swift */; };
+		9BC41F5D23763781001F0097 /* Bill copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F5C23763781001F0097 /* Bill copy.swift */; };
+		9BC41F5F23763786001F0097 /* MinuteExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F5E23763786001F0097 /* MinuteExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,17 +41,17 @@
 		9BADD08A23760808008B2C22 /* ShowBillDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowBillDetailsViewController.swift; sourceTree = "<group>"; };
 		9BADD08C237608CD008B2C22 /* AddNewBillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBillViewController.swift; sourceTree = "<group>"; };
 		9BADD08F2376115C008B2C22 /* output-onlinejpgtools.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "output-onlinejpgtools.png"; sourceTree = "<group>"; };
-		9BC41F2E23762C6B001F0097 /* CurrencyExtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrencyExtn.swift; path = ../../../../Downloads/Project/Project/Extensions/CurrencyExtn.swift; sourceTree = "<group>"; };
-		9BC41F3023762CA1001F0097 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = ../../../../Downloads/Project/Project/Extensions/DateExtension.swift; sourceTree = "<group>"; };
-		9BC41F3223762CC0001F0097 /* Internet copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Internet copy.swift"; path = "../../../../Downloads/Project/Project/Extensions/Internet copy.swift"; sourceTree = "<group>"; };
-		9BC41F3423762D21001F0097 /* DataUsed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataUsed.swift; path = ../../../../Downloads/Project/Project/Extensions/DataUsed.swift; sourceTree = "<group>"; };
-		9BC41F3623762D5C001F0097 /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Validation.swift"; path = "../../../../Downloads/Project/Project/Extensions/String+Validation.swift"; sourceTree = "<group>"; };
-		9BC41F3823762D94001F0097 /* IDisplay copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "IDisplay copy.swift"; path = "../../../../Downloads/Project/Project/Extensions/IDisplay copy.swift"; sourceTree = "<group>"; };
-		9BC41F3A23762DBB001F0097 /* ATErrorMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ATErrorMessage.swift; path = ../../../../Downloads/Project/Project/Extensions/ATErrorMessage.swift; sourceTree = "<group>"; };
-		9BC41F3C23762DDC001F0097 /* Hydro copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Hydro copy.swift"; path = "../../../../Downloads/Project/Project/Extensions/Hydro copy.swift"; sourceTree = "<group>"; };
-		9BC41F3E23762DF1001F0097 /* Customer copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Customer copy.swift"; path = "../../../../Downloads/Project/Project/Extensions/Customer copy.swift"; sourceTree = "<group>"; };
-		9BC41F4023762EE0001F0097 /* Bill copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bill copy.swift"; path = "../../../../Downloads/Project/Project/Extensions/Bill copy.swift"; sourceTree = "<group>"; };
-		9BC41F4223762EFA001F0097 /* MinuteExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MinuteExt.swift; path = ../../../../Downloads/Project/Project/Extensions/MinuteExt.swift; sourceTree = "<group>"; };
+		9BC41F4A237636E0001F0097 /* CurrencyExtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyExtn.swift; sourceTree = "<group>"; };
+		9BC41F4C237636E6001F0097 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		9BC41F4E237636F7001F0097 /* Internet copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Internet copy.swift"; sourceTree = "<group>"; };
+		9BC41F50237636FD001F0097 /* DataUsed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataUsed.swift; sourceTree = "<group>"; };
+		9BC41F5223763719001F0097 /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
+		9BC41F5423763745001F0097 /* IDisplay copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IDisplay copy.swift"; sourceTree = "<group>"; };
+		9BC41F5623763767001F0097 /* ATErrorMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATErrorMessage.swift; sourceTree = "<group>"; };
+		9BC41F582376376D001F0097 /* Hydro copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hydro copy.swift"; sourceTree = "<group>"; };
+		9BC41F5A23763772001F0097 /* Customer copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Customer copy.swift"; sourceTree = "<group>"; };
+		9BC41F5C23763781001F0097 /* Bill copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bill copy.swift"; sourceTree = "<group>"; };
+		9BC41F5E23763786001F0097 /* MinuteExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinuteExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		9BADD0752375F374008B2C22 /* C0769922_MidTerm_MAD3115F2019 */ = {
 			isa = PBXGroup;
 			children = (
-				9BC41F2D23762C3D001F0097 /* Extensions */,
+				9BC41F49237636B3001F0097 /* Extensions */,
 				9BADD08E2376111C008B2C22 /* New Group */,
 				9BADD0762375F374008B2C22 /* AppDelegate.swift */,
 				9BADD0782375F374008B2C22 /* LoginViewController.swift */,
@@ -107,20 +107,20 @@
 			path = "New Group";
 			sourceTree = "<group>";
 		};
-		9BC41F2D23762C3D001F0097 /* Extensions */ = {
+		9BC41F49237636B3001F0097 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				9BC41F3023762CA1001F0097 /* DateExtension.swift */,
-				9BC41F2E23762C6B001F0097 /* CurrencyExtn.swift */,
-				9BC41F3223762CC0001F0097 /* Internet copy.swift */,
-				9BC41F3423762D21001F0097 /* DataUsed.swift */,
-				9BC41F3623762D5C001F0097 /* String+Validation.swift */,
-				9BC41F3823762D94001F0097 /* IDisplay copy.swift */,
-				9BC41F3A23762DBB001F0097 /* ATErrorMessage.swift */,
-				9BC41F3C23762DDC001F0097 /* Hydro copy.swift */,
-				9BC41F3E23762DF1001F0097 /* Customer copy.swift */,
-				9BC41F4023762EE0001F0097 /* Bill copy.swift */,
-				9BC41F4223762EFA001F0097 /* MinuteExt.swift */,
+				9BC41F4A237636E0001F0097 /* CurrencyExtn.swift */,
+				9BC41F4C237636E6001F0097 /* DateExtension.swift */,
+				9BC41F4E237636F7001F0097 /* Internet copy.swift */,
+				9BC41F50237636FD001F0097 /* DataUsed.swift */,
+				9BC41F5223763719001F0097 /* String+Validation.swift */,
+				9BC41F5423763745001F0097 /* IDisplay copy.swift */,
+				9BC41F5623763767001F0097 /* ATErrorMessage.swift */,
+				9BC41F582376376D001F0097 /* Hydro copy.swift */,
+				9BC41F5A23763772001F0097 /* Customer copy.swift */,
+				9BC41F5C23763781001F0097 /* Bill copy.swift */,
+				9BC41F5E23763786001F0097 /* MinuteExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -197,22 +197,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BC41F3923762D94001F0097 /* IDisplay copy.swift in Sources */,
-				9BC41F3F23762DF2001F0097 /* Customer copy.swift in Sources */,
+				9BC41F5523763745001F0097 /* IDisplay copy.swift in Sources */,
+				9BC41F5B23763772001F0097 /* Customer copy.swift in Sources */,
 				9BADD0792375F374008B2C22 /* LoginViewController.swift in Sources */,
-				9BC41F3723762D5C001F0097 /* String+Validation.swift in Sources */,
-				9BC41F3123762CA1001F0097 /* DateExtension.swift in Sources */,
-				9BC41F4123762EE0001F0097 /* Bill copy.swift in Sources */,
-				9BC41F3D23762DDC001F0097 /* Hydro copy.swift in Sources */,
-				9BC41F3323762CC0001F0097 /* Internet copy.swift in Sources */,
-				9BC41F2F23762C6B001F0097 /* CurrencyExtn.swift in Sources */,
+				9BC41F5323763719001F0097 /* String+Validation.swift in Sources */,
+				9BC41F4D237636E6001F0097 /* DateExtension.swift in Sources */,
+				9BC41F5D23763781001F0097 /* Bill copy.swift in Sources */,
+				9BC41F592376376D001F0097 /* Hydro copy.swift in Sources */,
+				9BC41F4F237636F7001F0097 /* Internet copy.swift in Sources */,
+				9BC41F4B237636E0001F0097 /* CurrencyExtn.swift in Sources */,
 				9BADD0892375F779008B2C22 /* CustomerListTableViewController.swift in Sources */,
-				9BC41F3B23762DBB001F0097 /* ATErrorMessage.swift in Sources */,
+				9BC41F5723763767001F0097 /* ATErrorMessage.swift in Sources */,
 				9BADD0772375F374008B2C22 /* AppDelegate.swift in Sources */,
 				9BADD08D237608CD008B2C22 /* AddNewBillViewController.swift in Sources */,
-				9BC41F4323762EFA001F0097 /* MinuteExt.swift in Sources */,
+				9BC41F5F23763786001F0097 /* MinuteExt.swift in Sources */,
 				9BADD08B23760808008B2C22 /* ShowBillDetailsViewController.swift in Sources */,
-				9BC41F3523762D21001F0097 /* DataUsed.swift in Sources */,
+				9BC41F51237636FD001F0097 /* DataUsed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

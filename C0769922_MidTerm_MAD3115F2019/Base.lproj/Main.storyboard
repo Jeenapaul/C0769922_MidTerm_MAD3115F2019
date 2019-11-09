@@ -33,9 +33,9 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Sign IN" id="jA3-jU-bEf">
-                                        <barButtonItem key="rightBarButtonItem" title="Log in" id="Wyf-tV-cQa">
+                                        <barButtonItem key="rightBarButtonItem" title="Login" id="KbJ-N5-2zP">
                                             <connections>
-                                                <action selector="loginBtnTapped:" destination="BYZ-38-t0r" id="SXw-mw-Xfu"/>
+                                                <action selector="loginBtnTapped:" destination="BYZ-38-t0r" id="Ysl-tl-GYy"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -64,7 +64,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+            <point key="canvasLocation" x="204" y="144"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Wmj-XL-S7B">
@@ -137,7 +137,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qoj-X0-Z8o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1733.3333333333335" y="138.61607142857142"/>
+            <point key="canvasLocation" x="1500" y="139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VxE-kS-MBj">

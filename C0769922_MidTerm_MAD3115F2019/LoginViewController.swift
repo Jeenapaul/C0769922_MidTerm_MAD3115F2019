@@ -21,14 +21,25 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
-    @IBAction func loginBtnTapped(_ sender: UIBarButtonItem) {
+
+    @IBAction func loginBtnTapped(_ sender: Any) {
+        switch validateLoginCredentials {
+        case .valid:
+            showAlert(withMessage: "Login Successfull",viewController: self,okCall:{
+                self.moveToCustomersScreen()
+            })
+        case .invalid(let error):
+            showAlert(withMessage: error,viewController: self)
+        }
+        
     }
     
     
     
     
 }
+
 
