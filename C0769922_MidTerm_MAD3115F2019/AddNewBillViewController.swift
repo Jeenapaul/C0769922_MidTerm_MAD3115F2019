@@ -41,4 +41,61 @@ class AddNewBillViewController: UIViewController {
         enterBillTypeTextField.inputAccessoryView = toolBar
     }
     
-   
+    func setupToolBar(){
+           datePicker.datePickerMode = .date
+           datePicker.addTarget(self, action: #selector(datePickerValueChanged(_:)), for: .valueChanged)
+           toolBar.barStyle = UIBarStyle.default
+           toolBar.isTranslucent = true
+           toolBar.tintColor = UIColor.black
+           toolBar.sizeToFit()
+           let doneButton = UIBarButtonItem(title: "Done", style: .done, target: self, action: #selector(doneBtnAction))
+           let space = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: self, action: nil)
+           let cancelButton =   UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: #selector(cancelBtnAction))
+           toolBar.setItems([cancelButton, space,doneButton], animated: false)
+           toolBar.isUserInteractionEnabled = true
+           toolBar.sizeToFit()
+       }
+       
+       @objc func datePickerValueChanged(_ date:UIDatePicker){
+           enterBillDateTextField.text = datePicker.date.dateformatter()
+       }
+       
+       func setupTextFields(){
+           enterBillDateTextField.inputAccessoryView = toolBar
+           enterBillDateTextField.inputView = datePicker
+       }
+       
+       
+       @IBAction func saveBtnTapped(_ sender: Any) {
+           let date = enterBillDateTextField.text ?? ""
+           let id = enterBillIDTextField.text ?? ""
+           let amount = Float(enterAmountTextField.text ?? "")
+           var types = Bill.Types.self
+           switch enterBillTypeTextField.text ?? "" {
+           case billTypesArray[0]:
+               billCopyObj?.billType = .Hydro
+           case billTypesArray[1]:
+               billCopyObj?.billType = .Internet
+           case billTypesArray[2]:
+               billCopyObj?.billType = .Mobile
+           default:
+               break
+           }
+           
+         let billObj =  Bill(billId: id, billDate: date, billType: .Hydro)
+           delegate?.didSelectSaveBtn(billObj)
+           self.navigationController?.popViewController(animated: true)
+       }
+       
+       @objc func doneBtnAction(){
+           view.endEditing(true)
+       }
+       
+       
+       @objc func cancelBtnAction(){
+           view.endEditing(true)
+       }
+       
+   }
+
+ 
