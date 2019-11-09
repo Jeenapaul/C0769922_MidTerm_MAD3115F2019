@@ -27,6 +27,7 @@
 		9BC41F5B23763772001F0097 /* Customer copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F5A23763772001F0097 /* Customer copy.swift */; };
 		9BC41F5D23763781001F0097 /* Bill copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F5C23763781001F0097 /* Bill copy.swift */; };
 		9BC41F5F23763786001F0097 /* MinuteExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F5E23763786001F0097 /* MinuteExt.swift */; };
+		9BC41F6223763EB6001F0097 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F6123763EB6001F0097 /* Global.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		9BC41F5A23763772001F0097 /* Customer copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Customer copy.swift"; sourceTree = "<group>"; };
 		9BC41F5C23763781001F0097 /* Bill copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bill copy.swift"; sourceTree = "<group>"; };
 		9BC41F5E23763786001F0097 /* MinuteExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinuteExt.swift; sourceTree = "<group>"; };
+		9BC41F6123763EB6001F0097 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		9BADD0752375F374008B2C22 /* C0769922_MidTerm_MAD3115F2019 */ = {
 			isa = PBXGroup;
 			children = (
+				9BC41F6023763EA3001F0097 /* Model */,
 				9BC41F49237636B3001F0097 /* Extensions */,
 				9BADD08E2376111C008B2C22 /* New Group */,
 				9BADD0762375F374008B2C22 /* AppDelegate.swift */,
@@ -123,6 +126,14 @@
 				9BC41F5E23763786001F0097 /* MinuteExt.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9BC41F6023763EA3001F0097 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BC41F6123763EB6001F0097 /* Global.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 				9BC41F5F23763786001F0097 /* MinuteExt.swift in Sources */,
 				9BADD08B23760808008B2C22 /* ShowBillDetailsViewController.swift in Sources */,
 				9BC41F51237636FD001F0097 /* DataUsed.swift in Sources */,
+				9BC41F6223763EB6001F0097 /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
