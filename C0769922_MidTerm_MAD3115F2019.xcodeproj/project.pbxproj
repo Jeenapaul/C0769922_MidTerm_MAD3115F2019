@@ -28,6 +28,7 @@
 		9BC41F5D23763781001F0097 /* Bill copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F5C23763781001F0097 /* Bill copy.swift */; };
 		9BC41F5F23763786001F0097 /* MinuteExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F5E23763786001F0097 /* MinuteExt.swift */; };
 		9BC41F6223763EB6001F0097 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F6123763EB6001F0097 /* Global.swift */; };
+		9BC41F6523763F7D001F0097 /* ATButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC41F6423763F7D001F0097 /* ATButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		9BC41F5C23763781001F0097 /* Bill copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bill copy.swift"; sourceTree = "<group>"; };
 		9BC41F5E23763786001F0097 /* MinuteExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinuteExt.swift; sourceTree = "<group>"; };
 		9BC41F6123763EB6001F0097 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		9BC41F6423763F7D001F0097 /* ATButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		9BADD0752375F374008B2C22 /* C0769922_MidTerm_MAD3115F2019 */ = {
 			isa = PBXGroup;
 			children = (
+				9BC41F6323763F54001F0097 /* SubClasses */,
 				9BC41F6023763EA3001F0097 /* Model */,
 				9BC41F49237636B3001F0097 /* Extensions */,
 				9BADD08E2376111C008B2C22 /* New Group */,
@@ -134,6 +137,14 @@
 				9BC41F6123763EB6001F0097 /* Global.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9BC41F6323763F54001F0097 /* SubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				9BC41F6423763F7D001F0097 /* ATButton.swift */,
+			);
+			path = SubClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +231,7 @@
 				9BADD0892375F779008B2C22 /* CustomerListTableViewController.swift in Sources */,
 				9BC41F5723763767001F0097 /* ATErrorMessage.swift in Sources */,
 				9BADD0772375F374008B2C22 /* AppDelegate.swift in Sources */,
+				9BC41F6523763F7D001F0097 /* ATButton.swift in Sources */,
 				9BADD08D237608CD008B2C22 /* AddNewBillViewController.swift in Sources */,
 				9BC41F5F23763786001F0097 /* MinuteExt.swift in Sources */,
 				9BADD08B23760808008B2C22 /* ShowBillDetailsViewController.swift in Sources */,

@@ -8,23 +8,37 @@
 
 import UIKit
 
-class AddNewBillViewController: UIViewController {
+protocol AddNewBillViewControllerDelegate:NSObject {
+    func didSelectSaveBtn(_ bill:Bill)
+}
 
+
+
+class AddNewBillViewController: UIViewController {
+    
+    @IBOutlet weak var enterBillIDTextField: UITextField!
+    @IBOutlet weak var enterAmountTextField: UITextField!
+    @IBOutlet weak var enterBillDateTextField: UITextField!
+    @IBOutlet weak var enterBillTypeTextField: UITextField!
+    var pickerView = UIPickerView()
+    var datePicker = UIDatePicker()
+    let toolBar = UIToolbar()
+    let billTypesArray = ["Hydro","Internet","Mobile"]
+  weak var delegate:AddNewBillViewControllerDelegate?
+    var billCopyObj:Bill?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupToolBar()
+        setupPicker()
+        setupTextFields()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setupPicker(){
+        pickerView.delegate = self
+        enterBillTypeTextField.inputView = pickerView
+        enterBillTypeTextField.inputAccessoryView = toolBar
     }
-    */
-
-}
+    
+   
