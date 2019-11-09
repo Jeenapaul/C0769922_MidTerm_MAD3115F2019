@@ -10,21 +10,16 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
-    
+ 
+   
     @IBOutlet weak var emailTextField: UITextField!
-    
-    
     @IBOutlet weak var passwordTextField: UITextField!
-    
-    
-    @IBOutlet weak var rememberSwitch: UILabel!
+    @IBOutlet weak var rememberSwitch: UISwitch!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
-
-
+    
     @IBAction func loginBtnTapped(_ sender: Any) {
         switch validateLoginCredentials {
         case .valid:
@@ -34,11 +29,15 @@ class LoginViewController: UIViewController {
         case .invalid(let error):
             showAlert(withMessage: error,viewController: self)
         }
-        
     }
-    
-}
-extension LoginViewController {
+   
+    func moveToCustomersScreen(){
+           if let billDetailsVC = self.storyboard?.instantiateViewController(identifier: "CustomerListTableViewController") as? CustomerListTableViewController{
+                self.navigationController?.pushViewController(billDetailsVC, animated: true)
+            }
+        }
+    }
+extension LoginViewController {
     var validateLoginCredentials:UserValidationState {
         if emailTextField.text.isBlank {
             return .invalid(ATErrorMessage.Email.emptyNew)
@@ -52,4 +51,3 @@ extension LoginViewController {
         return .valid
     }
 }
-
