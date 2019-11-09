@@ -97,5 +97,23 @@ class AddNewBillViewController: UIViewController {
        }
        
    }
+extension AddNewBillViewController:UIPickerViewDataSource{
+     func numberOfComponents(in pickerView: UIPickerView) -> Int {
+         1
+     }
+     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+         return billTypesArray.count
+     }
+ }
+
+ extension AddNewBillViewController:UIPickerViewDelegate{
+     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+         return billTypesArray[row]
+     }
+     
+     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+         enterBillTypeTextField.text = billTypesArray[row]
+     }
+ }
 
  
